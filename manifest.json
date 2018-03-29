@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "core/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/128on.png"
+      },
+      "default_popup": "html/popup.html"
+   },
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "activeTab", "tabs", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.3.29.1",
+   "author": "Plugtopus Agency",
+   "homepage_url": "https://plugtopus.agency"
+}

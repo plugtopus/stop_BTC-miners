@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>Стоп майнеры Bitcoin</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/popup.css" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=ru" />
+    </head>
+    <body><br />
+        <a class="header" href="https://plugtopus.agency" target="_blank">
+            <div class="logo">
+                <img src="../img/128on.png" />
+            </div>
+            <div class="title">
+                <h1>Стоп майнеры Bitcoin!</h1>
+                <small>Current Version <span class="version">0.0.0.0</span></small>
+            </div> <br />
+        </a>
+        <div class="content">
+            <p class="detected box"><b><font color="#FF0000" face="Roboto" class="ws12">Майнер обнаружен на этой странице</font></b></p>
+
+            <div class="whitelisting">
+                <select class="dropdown">
+                    <option value="1">&nbsp;&nbsp;&nbsp;&nbsp; В белый список на 1 минуту</option>
+                    <option value="30">&nbsp;&nbsp;&nbsp;&nbsp; В белый список на 30 минут</option>
+                    <option value="0">&nbsp;&nbsp;&nbsp;&nbsp; В белый список навсегда</option>
+                </select>
+                
+                <br />
+                
+                <button class="btn whitelist">Белый список</button>
+                <p class="whitelisted box"></p>
+                <br />
+                <button class="btn unwhitelist">Убрать из белого списка</button>
+            </div>
+            <button class="btn toggle"></button>
+        </div>
+
+        <script src="../core/popup.js"></script>
+    </body>
+</html>
