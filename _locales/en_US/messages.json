@@ -1,0 +1,14 @@
+﻿{
+   "desc": {
+      "message": "This extension stops all Bitcoin miners in your browser"
+   },
+   "name": {
+      "message": "Stop Bitcoin miners"
+   },
+   "shortname": {
+      "message": "Stop Bitcoin miners"
+   },
+   "title": {
+      "message": "Stop Bitcoin miners"
+   }
+}
