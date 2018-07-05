@@ -9,7 +9,7 @@
       },
       "default_popup": "html/popup.html"
    },
-   "default_locale": "ru",
+   "default_locale": "en_US",
    "description": "__MSG_desc__",
    "icons": {
       "128": "img/128.png"
